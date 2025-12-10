@@ -1,0 +1,81 @@
+html {
+    background: radial-gradient(circle, #ededed, #ededed 50%, #eedcca 50%, #ededed);
+    background-size: 32px 32px;
+}
+
+.common {
+    position: absolute;
+    background-color: rgb(182, 247, 252);
+    border-radius: 16px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 75px;
+    position: fixed;
+    font-family: papyrus;
+    font-size: 40px;
+    z-index: 10;
+    background-color: #102937;
+    color: #f9744b;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.nav {
+    float: right;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.main {
+    background-color: #e1d9cf;
+    left: 32px;
+    right: 32px;
+    top: 95px;
+    height: fit-content;
+    padding-right: 288px;
+}
+
+.sideBar {
+    top: 105px;
+    right: 48px;
+    width: 240px;
+    height: fit-content;
+    background-color: #d6c4b0;
+}
+
+a {
+    text-decoration: none;
+    color: #f9744b;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:visited {
+    color: #f9744b;
+}
+
+#starting, #vowels, #ending {
+    scroll-margin-top: 100px;
+}
+
+table {
+    width: 100%;
+    padding: 4px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+.tableFirstColumn {
+    width: 25%;
+}
